@@ -1,5 +1,6 @@
 ---
 layout: home
+title: CR2 ICRA
 ---
 
 ## Debates on the Path Towards Generalizable Contact-Rich Robotics: Control and Representation
