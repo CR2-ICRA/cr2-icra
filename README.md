@@ -1,5 +1,5 @@
-## Hi there 👋
-
+## Debates on the Path Towards Generalizable Contact-Rich Robotics: Control and Representation
+Workshop at ICRA 2026
 <!--
 **CR2-ICRA/cr2-icra** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
