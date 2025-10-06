@@ -29,6 +29,5 @@ We are excited to welcome the following expert guest panelists from across both 
       {% include projects.liquid %}
     {% endfor %}
   </div>
-  {% endif %}
 {% endif %}
 </div>
