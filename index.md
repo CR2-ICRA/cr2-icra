@@ -11,21 +11,20 @@ Contact-rich robotics, where robots skillfully interact with the world through p
 
 ### Panelists
 We are excited to welcome the following expert guest panelists from across both industry and academia with representation from different genders, geographic locations, and career stages.
-<div class="projects">
-<!-- Display projects without categories -->
-{% assign sorted_projects = site.projects | sort: "importance" %}
+<div class="panelists">
+{% assign sorted_panelists = site.panelists | sort: "importance" %}
   <!-- Generate cards for each project -->
 {% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-2">
-    {% for project in sorted_projects %}
+    {% for panelist in sorted_panelists %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
   <div class="grid">
-    {% for project in sorted_projects %}
+    {% for panelist in sorted_panelists %}
       {% include projects.liquid %}
     {% endfor %}
   </div>
