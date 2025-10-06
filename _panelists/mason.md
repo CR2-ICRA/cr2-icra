@@ -3,7 +3,7 @@ layout: page
 title: Matthew Mason
 description: Professor Emeritus at Carnegie Mellon University and Chief Scientist at Berkshire Grey
 importance: 1
-category: Panelists
+category: panelists
 related_publications: true
 ---
 
