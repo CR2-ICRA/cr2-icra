@@ -2,6 +2,9 @@
 layout: home
 title: CR2 Workshop @ ICRA 2026
 ---
+<head>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
 
 ## Debates on the Path Towards Generalizable Contact-Rich Robotics: Control and Representation
 Workshop at ICRA 2026
@@ -11,7 +14,15 @@ Contact-rich robotics, where robots skillfully interact with the world through p
 
 ### Panelists
 We are excited to welcome the following expert guest panelists from across both industry and academia with representation from different genders, geographic locations, and career stages.
-<div class="panelists">
+
+<div class="card-columns">
+{% assign sorted_panelists = site.panelists | sort: "importance" %}
+  <!-- Generate cards for each project -->
+{% for p in sorted_panelists %}
+    {% include project-card.html project=p %}
+{% endfor %}
+
+{% comment %}
 {% assign sorted_panelists = site.panelists | sort: "importance" %}
   <!-- Generate cards for each project -->
 {% if page.horizontal %}
@@ -29,4 +40,5 @@ We are excited to welcome the following expert guest panelists from across both 
     {% endfor %}
   </div>
 {% endif %}
+{% endcomment %}
 </div>
