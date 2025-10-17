@@ -5,13 +5,14 @@ description: Professor Emeritus at Carnegie Mellon University and Chief Scientis
 importance: 1
 category: panelists
 related_publications: true
+img: assets/img/mason.jpg
 ---
 
-<div class="row justify-content-sm-center">
+<!-- <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/mason.jpg" title="" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
+</div> -->
 
 
 Matthew T. Mason is the Chief Scientist at Berkshire Grey, and Professor Emeritus at Carnegie Mellon University (CMU).

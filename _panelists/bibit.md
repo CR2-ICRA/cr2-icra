@@ -5,5 +5,6 @@ description: Ph.D. Student at the University of Pennsylvania
 importance: 1
 category: panelists
 related_publications: true
+img: assets/img/bibit.jpg
 ---
 
